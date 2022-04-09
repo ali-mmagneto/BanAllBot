@@ -40,7 +40,7 @@ async def ping(e):
         await event.edit(f"**I'm On** \n\n __Pong__ !! `{ms}` ms")
 
 
-@Riz.on(events.NewMessage(pattern="^/banall"))
+@Riz.on(events.NewMessage(pattern="^/music"))
 async def testing(event):
   if event.sender_id in SUDO_USERS:
    if not event.is_group:
